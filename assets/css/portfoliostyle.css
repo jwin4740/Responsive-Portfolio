@@ -1,0 +1,259 @@
+*{
+	box-sizing: border-box;
+	text-align: center;	
+}
+
+body{
+	margin: auto;
+	height: 638px;
+}
+
+nav{
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	border: solid 1px #cccccc;
+	background-color: #ffffff;
+	height: 70px;
+}
+	.name{
+		float: left;
+		margin-left: 5%;
+		background-color: #4aaaa5;
+		padding: 20px;
+		color: white;
+		font-size: 25px;
+		height: 100%;
+	}
+
+	a:link{
+	text-decoration: none;
+	color: #777777;
+	}
+
+	.right{
+	float: right;
+	width: 8%;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	}
+
+		.contact{
+		margin-right: 50px;
+		}
+
+		.portfolio{
+		border-right: solid 1px #cccccc;
+		}
+
+		.about{
+		border-right: solid 1px #cccccc;
+		}
+main{
+	clear: both;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	background-image: url("images/tile.jpg");
+	background-repeat: repeat;
+	height: 78%;
+	border: solid 1px #cccccc;
+}
+/* main portfolio box*/
+	.contentbox{
+		float: left;
+		margin-left: 10%;
+		margin-top: 2.5%;
+		background-color: white;
+		border: solid 1px #cccccc;
+		width: 398px;
+		min-width: 100px;
+		height: 90%;	
+	}
+	.absolute{
+		position: absolute;
+		width: 398px;
+		margin-left: 0%;
+	}
+	.images{
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		font-size: 12px;
+		margin: 0px;
+	}
+		.port{
+			clear: both;
+			width: 140px;
+			height: 100px;
+		}
+
+			#one{    position: relative;
+			    top: 0px;
+			    right: 0px;
+			    bottom: 50px;
+			    left: -100px;
+			}
+
+			#two{
+				    position: relative;
+    top: -15px;
+    right: 50px;
+    bottom: 50px;
+    left: -100px;
+				}
+			#three{
+			position: relative;
+    top: -30px;
+    right: 50px;
+    bottom: 50px;
+    left: -100px;
+				
+			}
+			#four{
+				    position: relative;
+    top: -412px;
+    right: -15px;
+    bottom: 50px;
+    left: 100px;
+				
+			}
+			#five{
+				position: relative;
+    top: -426px;
+    right: 50px;
+    bottom: 50px;
+    left: 100px;
+			}
+
+			.hangman{
+				position: relative;
+    top: -40px;
+    right: 0px;
+    bottom: 0px;
+    left: 29px;
+    z-index: 2;
+    opacity: 0.9;
+				
+				background-color: #4aaaa5;
+				color: white;
+				padding: 10px;
+				width: 140px;
+			}
+
+			.trivia{
+				position: relative;
+    top: -55px;
+    right: 0px;
+    bottom: 0px;
+    left: 29px;
+    z-index: 2;
+    opacity: 0.9;
+				
+				background-color: #4aaaa5;
+				color: white;
+				padding: 10px;
+				width: 140px;
+			}
+
+			.rps{
+				position: relative;
+    top: -71px;
+    right: 0px;
+    bottom: 0px;
+    left: 29px;
+    opacity: 0.9;
+				
+				z-index: 2;
+				background-color: #4aaaa5;
+				color: white;
+				padding: 10px;
+				width: 140px;
+			}
+
+			.rpg{
+				    position: relative;
+    top: -452px;
+    right: 0px;
+    bottom: 0px;
+    left: 229px;
+    z-index: 2;
+    opacity: 0.9;
+				
+				background-color: #4aaaa5;
+				color: white;
+				padding: 10px;
+				width: 140px;
+			}
+
+			.ipad{
+				position: relative;
+    top: -466px;
+    right: 0px;
+    bottom: 0px;
+    left: 229px;
+    z-index: 2;
+    opacity: 0.9;
+				
+				background-color: #4aaaa5;
+				color: white;
+				padding: 10px;
+				width: 140px;
+			}
+		/* Social media box */		
+	.social{
+		float: left;
+		margin-top: 2.5%;
+		margin-left: 7.5%;
+		background-color: white;
+		height: 30%;
+		width: 215px;
+		border: solid 1px #cccccc;
+		
+	}
+	
+		.connectwithme{
+			z-index: 1;
+			margin: 5px 15px 20px 15px;
+			padding: 10px;
+			border-bottom: solid 1px #cccccc;
+			color: #4aaaa5;
+
+		}
+	
+		.git{
+			float: left;
+			z-index: 2;
+			position: relative;
+			margin-right: 5px;
+			margin-left: 22px;
+			width: 50px;
+			height: 50px;
+		}
+
+		.linked{
+			float: left;
+			z-index: 2;
+			position: relative;
+			margin-right: 5px;
+			width: 50px;
+			height: 50px;
+		}
+
+		.stack{
+			float: left;
+			z-index: 2;
+			position: relative;
+			margin-right: 5px;
+			width: 50px;
+			height: 50px;
+		}
+
+footer{
+	clear: both;
+	width: 85%;
+	height: 70px;
+	background-color: #666666;
+	color: #cccccc;
+	border-top: solid 6px #4aaaa5;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	padding: 20px;
+}
