@@ -1,108 +1,52 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" href="contactstyle.css">
-	
+	<link rel="stylesheet" href="indexstyle.css">
 	<title>Contact</title>
 	</head>
 	<body>
-
-	<!-- Nav Bar (copied and pasted from WC3) -->
-      <!-- Static navbar -->
-      <nav class="navbar navbar-default" >
-        <div class="container">
-          <div>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <h3>James Winkle<h3>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="./">About</a></li>
-              <li><a href="../navbar-static-top/">Portfolio</a></li>
-              <li><a href="../navbar-fixed-top/">Contact</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
-
-			<!--<nav>
-
-				<div class="name">				
-					<strong>James Winkle</strong>
+	<div class="totustuus">
+		<nav>
+	    	<div class="navleft">
+	    		<h2>James Winkle</h2>
+	    	</div>
+	    	<div class="navright">
+	    		<a class="right" href="contact.html">Contact</a>
+	    		<a class="right"href="portfolio.html" style="border-left: 1px; border-right: 1px; border-top: 0px; border-bottom: 0px;border-style: solid; border-color: #dddddd;">Portfolio</a>
+	    		<a class="right" href="index.html">About</a>
+	    	</div>    
+	    </nav>
+		<main> 
+			<section class="acontent">
+				<div class="cn">
+				Contact
 				</div>
-				
-				<div class= "right contact"> 
-					<a href="contact.html">Contact</a>
-				</div>
-				
-				<div class="right portfolio">
-					<a href="portfolio.html">Portfolio</a> 
-				</div>
-				
-				<div class="right about">
-					<a href="about.html">About</a>
-				</div>		
-			</nav>-->
-		<main> <!-- main contact box-->
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="cn">
-						Contact
-						</div>
-						<div class="form">
-						  <form>
-						    <h5>Name</h5>
-						    <input class="fill" >
-						    
-						    <h5>Email</h5>
-						    <input class="fill">
-
-						    <h5>Message</h5>
-						    <input class="message">
-						    
-						    <input type="submit" value="Submit">
-						  </form>
-						</div>
-					</div>
-					<div class="col-md-2">
-						<div class="social">
-							<h3 class="connectwithme">Connect with Me</h3>
-							<a target="_blank" href="https://github.com/jwin4740">
-							<img class="git" src="images/git.png" alt="Github">
-							</a>
-							<a target="_blank" href="https://www.linkedin.com/in/james-winkle-4181794b?trk=nav_responsive_tab_profile">
-							<img class="linked" src="images/linkedinlogo.png" alt="linkedin">
-							</a>
-							<a target="_blank" href="http://stackoverflow.com/users/7083353/james-winkle?tab=profile">
-							<img class="stack" src="images/stack.png" alt="stackoverflow">
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</main>
+				<div class="form">
+					<form>
+						<h5>Name</h5>
+						<input class="fill" >
+						<h5>Email</h5>
+						<input class="fill">
+						<h5>Message</h5>
+						<input class="message">
+						<input type="submit" value="Submit">
+					</form>
+				</div>	
+			</section>
+			<section class="connect">
+				<h3 class="connectwithme">Connect with Me</h3>
+				<a target="_blank" href="https://github.com/jwin4740">
+				<img class="social git" src="images/git.png" alt="Github"></a>
+				<a target="_blank" href="https://www.linkedin.com/in/james-winkle-4181794b?trk=nav_responsive_tab_profile">
+				<img class=" social linked" src="images/linkedinlogo.png" alt="linkedin"></a>
+				<a target="_blank" href="http://stackoverflow.com/users/7083353/james-winkle?tab=profile">
+				<img class="social stack" src="images/stack.png" alt="stackoverflow"></a>
+			</section>
+			</main>
 			<footer>
 			(c) copyright 2016 James Winkle
 			</footer>
+	</div>
 	</body>
 	</html>
+		
