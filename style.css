@@ -184,7 +184,7 @@ main{
 		}
 		
 		.rowa{
-			border: solid 2px black;
+			
 			width: 400px;
 			height: 114px;
 			margin-bottom: 20px;
@@ -203,7 +203,7 @@ main{
 				padding: 10px;
 				width: 150px;
 				height: 30px;
-				left: 18px;
+				left: 20px;
 				top: -52px;
 			}
 			
@@ -222,12 +222,12 @@ main{
 				padding: 10px;
 				width: 150px;
 				height: 30px;
-				left: 228px;
+				left: 230px;
 				top: -227px;
 			}
 
 		.rowb{
-			border: solid 2px black;
+			
 			width: 400px;
 			height: 114px;
 			margin-bottom: 20px;
@@ -247,7 +247,7 @@ main{
 				color: white;
 				padding: 10px;
 				width: 150px;
-				left: 18px;
+				left: 20px;
 				top: -52px;
 			}
 
@@ -265,14 +265,14 @@ main{
 				color: white;
 				padding: 10px;
 				width: 150px;
-				left: 228px;
+				left: 230px;
 				top: -224px;
 			}
 
 			
 			
 		.rowc{
-			border: solid 2px black;
+			
 			width: 400px;
 			height: 114px;
 		}	
@@ -289,7 +289,7 @@ main{
 				color: white;
 				padding: 10px;
 				width: 150px;
-				left: 18px;
+				left: 20px;
 				top: -51px;
 			}
 
