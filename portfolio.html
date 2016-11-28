@@ -1,68 +1,73 @@
-<!DOCTYPE html>
-	<html>
-	<head>
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio | James</title>
-	<link rel="stylesheet" href="assets/css/style2.css">
+	<title>Portfolio | James Winkle</title>
 	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style2.css">
 
-	</head>
-	<body>
-		<nav>
-	    	<div class="navleft">
-	    		<a href="index.html">James Winkle</a>
-	    	</div>
-	    	<div class="navright">
-	    		<a class="right" href="contact.html">Contact</a>
-	    		<a class="right" href="portfolio.html" style="border-left: 1px; border-right: 1px; border-top: 0px; border-bottom: 0px;border-style: solid; border-color: #dddddd;">Portfolio</a>
-	    		<a class="right" href="index.html">About</a>
-	    	</div>    
-	    </nav>
-		<main class="mainport"> 
-			<section class="pcontent">
-					<h3 class="aboutme" style= "text-align: left;">Portfolio</h3>
-					<div class="images">
-						<div class="rowa">
-							<a href="portfolio.html">	
-							<img class="port" id="one" src="assets/images/hangman.jpg" alt="Hangman">
-							<h4 class="hangman"> Hangman</h4>
-							</a>
-							<a href="portfolio.html">	
-							<img class="port" id="two" src="assets/images/rpg.jpg" alt="RPG">
-							<h4 class="rpg"> RPG Game</h4>
-							</a>
-						</div>
-						<div class="rowb">
-							<a href="portfolio.html">	
-							<img class="port" id="four" src="assets/images/trivia.jpg" alt="Trivia">
-							<p class="trivia"> Trivia Game</p>
-							</a>
-							<a href="portfolio.html">	
-							<img class="port" id="three" src="assets/images/ipod.jpg" alt="Rutgers Info Widget">
-							<p class="ipad"> Rutgers Info Widget</p>
-							</a>
-						</div>
-						<div class="rowc">
-							<a href="portfolio.html">	
-							<img class="port" id="five" src="assets/images/rps.jpg" alt="RockPaperScissors">
-							<p class="rps"> Rock Paper Scissors</p></a>
-						</div>
-					</div>
-			</section>
-			<section class="connect">
-				<h3 class="connectwithme">Connect with Me</h3>
-				<a target="_blank" href="https://github.com/jwin4740">
-				<img class="social git" src="assets/images/git.png" alt="Github"></a>
-				<a target="_blank" href="https://www.linkedin.com/in/james-winkle-4181794b?trk=nav_responsive_tab_profile">
-				<img class=" social linked" src="assets/images/linkedinlogo.png" alt="linkedin"></a>
-				<a target="_blank" href="http://stackoverflow.com/users/7083353/james-winkle?tab=profile">
-				<img class="social stack" src="assets/images/stack.png" alt="stackoverflow"></a>
-			</section>
-			</main>
-			<footer>
-			(c) copyright 2016 James Winkle
-			</footer>
-	
-	</body>
-	</html>
-		
+</head>
+<body>
+
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">James Winkle</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
+	</header>
+
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>Portfolio</h1>
+
+			<div class="work">
+				<img class="port" src="assets/images/hangman.jpg" alt="hangman">
+
+				<h3>Hangman</h3>
+			</div>
+			<div class="work">
+				<img class="port" src="assets/images/rpg.jpg" alt="RPG Game">
+
+				<h3>RPG Game</h3>
+			</div>
+			<div class="work">
+				<img class="port" src="assets/images/trivia2.jpg" alt="Trivia Game">
+
+				<h3>Trivia Game</h3>
+			</div>
+			<div class="work">
+				<img class="port" src="assets/images/ipod.jpg" alt="Rutgers Info Widget">
+
+				<h3>Rutgers Info Widget</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/rps.jpg" alt="Rock Paper Scissors">
+
+				<h3>Rock Paper Scissors</h3>
+			</div>
+
+		</section>
+
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
+
+		        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+		        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+		        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+			</div>
+		</section>
+	</div>
+
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 James Winkle
+		</div>
+	</footer>
+</body>
+</html>

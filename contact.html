@@ -1,53 +1,64 @@
-<!DOCTYPE html>
-	<html>
-	<head>
-	<link rel="stylesheet" href="assets/css/style.css">
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contact</title>
-	</head>
-	<body>
-	<div class="totustuus">
-		<nav>
-	    	<div class="navleft">
-	    		<h2>James Winkle</h2>
-	    	</div>
-	    	<div class="navright">
-	    		<a class="right" href="contact.html">Contact</a>
-	    		<a class="right" href="portfolio.html" style="border-left: 1px; border-right: 1px; border-top: 0px; border-bottom: 0px;border-style: solid; border-color: #dddddd;">Portfolio</a>
-	    		<a class="right" href="index.html">About</a>
-	    	</div>    
-	    </nav>
-		<main> 
-			<section class="acontent">
-				<div class="cn">
-				Contact
-				</div>
-				<div class="form">
-					<form>
-						<h5>Name</h5>
-						<input class="fill" >
-						<h5>Email</h5>
-						<input class="fill">
-						<h5>Message</h5>
-						<input class="message">
-						<input type="submit" value="Submit">
-					</form>
-				</div>	
-			</section>
-			<section class="connect">
-				<h3 class="connectwithme">Connect with Me</h3>
-				<a target="_blank" href="https://github.com/jwin4740">
-				<img class="social git" src="assets/images/git.png" alt="Github"></a>
-				<a target="_blank" href="https://www.linkedin.com/in/james-winkle-4181794b?trk=nav_responsive_tab_profile">
-				<img class=" social linked" src="assets/images/linkedinlogo.png" alt="linkedin"></a>
-				<a target="_blank" href="http://stackoverflow.com/users/7083353/james-winkle?tab=profile">
-				<img class="social stack" src="assets/images/stack.png" alt="stackoverflow"></a>
-			</section>
-			</main>
-			<footer>
-			(c) copyright 2016 James Winkle
-			</footer>
+	<title>Contact | James Winkle</title>
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+</head>
+<body>
+
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">James Winkle</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
+	</header>
+
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>Contact</h1>
+
+			<form id="contact-form">
+				<ul>
+					<li>
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+					</li>
+					<li>
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required="required"></textarea>
+					</li>
+				</ul>
+				<input type="submit">
+			</form>
+
+		</section>
+
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
+
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+			</div>
+		</section>
 	</div>
-	</body>
-	</html>
-		
+
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 James Winkle
+		</div>
+	</footer>
+</body>
+</html>
